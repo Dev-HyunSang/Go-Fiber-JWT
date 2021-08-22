@@ -14,7 +14,7 @@
 └── main.go # Runing Server
 ```
 
-**`/login`: ** `user`, `passwrod`를 가지고 로그인을 할 수 있습니다
+**`/login`:** `user`, `passwrod`를 가지고 로그인을 할 수 있습니다
 
 ```shell
 # Reqeust
