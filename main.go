@@ -1,17 +1,15 @@
 package main
 
 import (
-	"Go-Fiber-JWT/routes"
-	"time"
+	"Go-Fiber-JWT/cmd"
 
 	"github.com/gofiber/fiber/v2"
-	"github.com/golang-jwt/jwt"
 )
 
 func main() {
 	app := fiber.New()
 
-	routes.Routes(app)
+	cmd.Router(app)
 
 	app.Listen(":3000")
 }
